@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_6xBvISzOEeuz4JHWNPQtVQ" label="KFR_TDM" description="Talend Data Mapper Project" language="java" technicalLabel="KFR_TDM" author="_6xBvIizOEeuz4JHWNPQtVQ" productVersion="Talend Cloud Real-Time Big Data Platform-7.3.1.20201023_0740-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/rkouanang/TDM.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <migrationTask xmi:id="_6yhj8CzOEeuz4JHWNPQtVQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_6xBvIizOEeuz4JHWNPQtVQ" login="rkouanang.talend.com@talendconsultingeu.aws" firstName="Rostand" lastName="Kouanang" type="DQ"/>
+</xmi:XMI>
