@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Index_Range_Flat.xml' outStruct='Structures/Index_Range_Xml.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='Index_Range_Flat' outputStructUserName='Index_Range_Xml' V1='4' name='m01_index_range_map' incarnation='136'>
-  <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
+<root t='190' id='1' V190='11' inStruct='Structures/index_range_loop/Index_Range_Flat.xml' outStruct='Structures/Index_Range_Xml.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='Index_Range_Flat' outputStructUserName='Index_Range_Xml' V1='4' name='m01_index_range_map' incarnation='137'>
+  <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='5' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
       <mapNode t='190' idref='1'/>
@@ -37,7 +37,7 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='14' V200='8' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='loadRequestData'>
+  <outputMapElem t='200' id='14' V200='8' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='loadRequestData'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/csv,{Filter},{Sort Keys},{Contexts})</loop>
   </outputMapElem>
@@ -45,13 +45,13 @@
   </outputNsList>
   <outputNsList t='161' id='16' V161='1' namespaceUri='http://dataLoader.ejb.processes.cbas/' namespacePrefix='tns' V1='4'>
   </outputNsList>
-  <inputRepRuntime t='693' id='17' V693='1' newLineType='2' delimiter=',' numRowsSkip='1' ignoreAmbiguousInitTerms='true' outputAsDelimited='true' outputDelimitedHeader='true' structName='Structures/Index_Range_Flat.xml' V690='1' padOutput='true' trimInput='true'>
+  <inputRepRuntime t='693' id='37' V693='1' newLineType='2' delimiter=',' numRowsSkip='1' ignoreAmbiguousInitTerms='true' outputAsDelimited='true' outputDelimitedHeader='true' structName='Structures/index_range_loop/Index_Range_Flat.xml' V690='1' padOutput='true' trimInput='true'>
   </inputRepRuntime>
   <outputRepRuntime t='692' id='36' V692='1' unnamedElemsNamespace='1' V690='1'>
     <namespaceContainers t='220' ref='Namespace Containers/ranga_xml.xml'/>
   </outputRepRuntime>
   <valueSets></valueSets>
-  <inputXmlRepRuntime t='692' id='32' V692='1' V690='1'>
+  <inputXmlRepRuntime t='692' id='38' V692='1' V690='1'>
   </inputXmlRepRuntime>
   <outputXmlRepRuntime t='692' idref='36'/>
   <child t='165' id='2' V1='4' name='Document Bindings'>
