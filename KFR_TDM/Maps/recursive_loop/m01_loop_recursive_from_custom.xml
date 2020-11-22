@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/recursive_loop/Component.xml' outStruct='Structures/recursive_loop/Component.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='Component' outputStructUserName='Component' V1='4' name='m01_loop_recursive_from_custom' incarnation='146'>
+<root t='190' id='1' V190='11' inStruct='Structures/recursive_loop/Component.xml' outStruct='Structures/recursive_loop/Component.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='Component' outputStructUserName='Component' V1='4' name='m01_loop_recursive_from_custom' incarnation='170'>
   <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Component'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Id'>
@@ -19,7 +19,7 @@
       <useChildrenOf t='200' idref='4'/>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='10' V200='8' structElemExists='true' usedCount='19' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Component'>
+  <outputMapElem t='200' id='10' V200='8' structElemExists='true' usedCount='25' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Component'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/Component,{Filter},{Sort Keys},{Contexts})</loop>
     <child t='200' id='11' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Id'>
@@ -38,10 +38,26 @@
       <mapNode t='190' idref='1'/>
       <value>in$/Component/Description</value>
     </child>
-    <child t='200' id='15' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='SubComponents'>
+    <child t='200' id='15' V200='8' recursiveExpanded='true' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='SubComponents'>
       <mapNode t='190' idref='1'/>
       <useChildrenOf t='200' idref='10'/>
       <loop>RecursiveLoop(in$/Component/SubComponents,{Filter},{Sort Keys},{Contexts})</loop>
+      <child t='200' id='19' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Id'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='20' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PartNumber'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='21' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Quantity'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='22' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Description'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='23' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SubComponents'>
+        <mapNode t='190' idref='1'/>
+        <useChildrenOf t='200' idref='10'/>
+      </child>
     </child>
   </outputMapElem>
   <inputRepRuntime t='692' id='16' V692='1' V690='1'>
