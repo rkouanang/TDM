@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Index_Range_Flat.xml' outStruct='Structures/Index_Range_Xml.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='Index_Range_Flat' outputStructUserName='Index_Range_Xml' V1='4' name='m02_index_range_map' incarnation='119'>
-  <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
+<root t='190' id='1' V190='11' inStruct='Structures/Index_Range_Flat.xml' outStruct='Structures/Index_Range_Xml.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='Index_Range_Flat' outputStructUserName='Index_Range_Xml' V1='4' name='m02_index_range_map' incarnation='780'>
+  <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='5' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
+    <child t='200' id='5' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
       <mapNode t='190' idref='1'/>
-      <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='PersonID'>
+      <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='PersonID'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
-      <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='PersonName'>
+      <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='PersonName'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
-      <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='ChildID'>
+      <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='ChildID'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
-      <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='ChildName'>
+      <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='ChildName'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
@@ -24,11 +24,11 @@
         <mapNode t='190' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
-      <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='BookID'>
+      <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='BookID'>
         <mapNode t='190' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
-      <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='BookName'>
+      <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='BookName'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='13' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='__osdtTerminator'>
@@ -37,9 +37,57 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='14' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='loadRequestData'>
+  <outputMapElem t='200' id='14' V200='8' structElemExists='true' usedCount='22' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='loadRequestData'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/csv,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='19' V200='8' structElemExists='true' usedCount='18' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Root'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='20' V200='8' structElemExists='true' usedCount='18' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='People'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='21' V200='8' structElemExists='true' usedCount='18' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Person'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop([distinctChildElem="PersonID"],in$/csv/row,{Filter},{Sort Keys},{Contexts})</loop>
+          <child t='200' id='22' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PersonID'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/csv/row/PersonID</value>
+          </child>
+          <child t='200' id='23' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PersonName'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/csv/row/PersonName</value>
+          </child>
+          <child t='200' id='24' V200='8' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Children'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='25' V200='8' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Child'>
+              <mapNode t='190' idref='1'/>
+              <loop>IndexRangeLoop(in$/csv/row,LoopIndex(out$/tns:loadRequestData/Root/People/Person),{End Index},{End Condition},Equal(out$/tns:loadRequestData/Root/People/Person/PersonID,in$/csv/row/PersonID),{Sort Keys},{Contexts})</loop>
+              <child t='200' id='26' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ChildID'>
+                <mapNode t='190' idref='1'/>
+                <value>in$/csv/row/ChildID</value>
+              </child>
+              <child t='200' id='27' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ChildName'>
+                <mapNode t='190' idref='1'/>
+                <value>in$/csv/row/ChildName</value>
+              </child>
+            </child>
+          </child>
+          <child t='200' id='28' V200='8' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Books'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='29' V200='8' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Book'>
+              <mapNode t='190' idref='1'/>
+              <loop>IndexRangeLoop(in$/csv/row,LoopIndex(out$/tns:loadRequestData/Root/People/Person),{End Index},{End Condition},Equal(in$/csv/row/PersonID,out$/tns:loadRequestData/Root/People/Person/PersonID),{Sort Keys},{Contexts})</loop>
+              <child t='200' id='30' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BookID'>
+                <mapNode t='190' idref='1'/>
+                <value>in$/csv/row/BookID</value>
+              </child>
+              <child t='200' id='31' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BookName'>
+                <mapNode t='190' idref='1'/>
+                <value>in$/csv/row/BookName</value>
+              </child>
+            </child>
+          </child>
+        </child>
+      </child>
+    </child>
   </outputMapElem>
   <outputNsList t='161' id='15' V161='1' namespaceUri='___osdtDummy___' V1='4'>
   </outputNsList>
@@ -51,14 +99,14 @@
     <namespaceContainers t='220' ref='Namespace Containers/ranga_xml.xml'/>
   </outputRepRuntime>
   <valueSets></valueSets>
-  <inputXmlRepRuntime t='692' id='19' V692='1' V690='1'>
+  <inputXmlRepRuntime t='692' id='32' V692='1' V690='1'>
   </inputXmlRepRuntime>
   <outputXmlRepRuntime t='692' idref='18'/>
   <child t='165' id='2' V1='4' name='Document Bindings'>
-    <child t='166' id='17' V166='5' docType='1' docReposPath='/KFR_TDM/Sample Data/Index_Range_Flat/indexed_loop.txt' V1='4' name='in$/csv'>
+    <child t='166' id='33' V166='5' docType='1' docReposPath='/KFR_TDM/Sample Data/Index_Range_Flat/indexed_loop.txt' V1='4' name='in$/csv'>
       <elemNode t='200' idref='4'/>
     </child>
-    <child t='166' id='18' V166='5' docType='2' V1='4' name='out$/tns:loadRequestData'>
+    <child t='166' id='34' V166='5' docType='2' V1='4' name='out$/tns:loadRequestData'>
       <elemNode t='200' idref='14'/>
     </child>
   </child>
