@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x175f567d15e' V1='4' name='ADS_in' incarnation='26'>
+<root t='150' id='1' V150='13' creationTimestamp='0x175f567d15e' V1='4' name='ADS_in' incarnation='29'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
       <structNode t='150' idref='1'/>
-      <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='ID_ADS'>
+      <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/RequiredQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='ID_ADS'>
         <structNode t='150' idref='1'/>
         <delimTerminator>;</delimTerminator>
       </child>
@@ -34,5 +34,8 @@
     </child>
   </child>
   <child t='165' id='12' V1='4' name='Document Bindings'>
+    <child t='166' id='13' V166='5' docType='1' docReposPath='/KFR_TDM/Sample Data/ADS_in/ADS_in' V1='4' name='/csv'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>
