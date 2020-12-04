@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/index_range_loop/Index_Range_Flat.xml' outStruct='Structures/index_range_loop/Index_Range_Xml.xml' inputRep='173' outputRep='172' nextMap='Maps/index_range_loop/m02_index_range_map.xml' inputStructUserName='Index_Range_Flat' outputStructUserName='Index_Range_Xml' V1='4' name='m02_index_range_map' incarnation='1324'>
+<root t='190' id='1' V190='11' inStruct='Structures/index_range_loop/Index_Range_Flat.xml' outStruct='Structures/index_range_loop/Index_Range_Xml.xml' inputRep='173' outputRep='172' nextMap='Maps/index_range_loop/m02_index_range_map.xml' inputStructUserName='Index_Range_Flat' outputStructUserName='Index_Range_Xml' V1='4' name='m02_index_range_map' incarnation='1328'>
   <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='101' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='5' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='89' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
@@ -103,10 +103,10 @@
   </inputXmlRepRuntime>
   <outputXmlRepRuntime t='692' idref='41'/>
   <child t='165' id='2' V1='4' name='Document Bindings'>
-    <child t='166' id='33' V166='5' docType='1' docReposPath='/KFR_TDM/Sample Data/Index_Range_Flat/indexed_loop.txt' V1='4' name='in$/csv'>
+    <child t='166' id='33' V166='5' docType='1' docReposPath='/KFR_TDM/Sample Data/index_range_loop/Index_Range_Flat/indexed_loop.csv' V1='4' name='in$/csv'>
       <elemNode t='200' idref='4'/>
     </child>
-    <child t='166' id='34' V166='5' docType='2' docReposPath='/TDM/Sample Data/ranga_xml/ranga_xml' V1='4' name='out$/tns:loadRequestData'>
+    <child t='166' id='34' V166='5' docType='2' docReposPath='/KFR_TDM/Sample Data/Maps/index_range_loop/m02_index_range_map_output/indexed_loop.csv' V1='4' name='out$/tns:loadRequestData'>
       <elemNode t='200' idref='14'/>
     </child>
   </child>
